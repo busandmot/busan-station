@@ -4,14 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <title>GREEN MOOD | SLOW HEALING STATION</title>
-  <meta property="og:title" content="나의 부산 여행 무드는 GREEN MOOD!">
-  <meta property="og:description" content="SLOW HEALING STATION — <span class='tag'>#힐링</span><span class='tag'>#산책</span><span class='tag'>#슬로우트립</span><span class='tag'>#VISITBUSAN</span> #VISITBUSAN">
-  <meta property="og:image" content="https://via.placeholder.com/800x800/00A651/FFFFFF?text=GREEN MOOD">
+  <meta property="og:title" content="BUSAN MODE: ON 🌊">
+  <meta property="og:description" content="Play. Work. Live. Busan — My mood is GREEN MOOD! #VISITBUSAN">
   <style>
     *{box-sizing:border-box;margin:0;padding:0}
     body{background:#00A651;min-height:100vh;display:flex;flex-direction:column;align-items:center;font-family:-apple-system,'Apple SD Gothic Neo','Noto Sans KR',sans-serif;padding:32px 20px 48px}
     .event-tag{font-size:11px;letter-spacing:.14em;font-weight:500;color:rgba(255,255,255,.55);margin-bottom:20px}
-    .card{width:100%;max-width:360px;background:#fff;border-radius:20px;overflow:hidden;margin-bottom:14px;box-shadow:0 8px 32px rgba(0,0,0,.18)}
+    .ticket-wrap{width:100%;max-width:360px;margin-bottom:14px;filter:drop-shadow(0 8px 24px rgba(0,0,0,.22))}
+    .ticket-top{background:#fff;border-radius:16px 16px 0 0;overflow:hidden}
     .card-header{background:#00A651;padding:22px 20px 16px}
     .mood-label{font-size:10px;letter-spacing:.14em;color:rgba(255,255,255,.55);font-weight:500;margin-bottom:4px}
     .mood-name{font-size:30px;font-weight:700;color:#fff;line-height:1.1;margin-bottom:2px}
@@ -24,8 +24,16 @@
     .spot-label{font-size:10px;font-weight:600;letter-spacing:.1em;color:#00A651;margin-bottom:8px}
     .spots{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:14px}
     .spot{background:#E0F8EC;border-radius:8px;padding:6px 4px;font-size:11px;color:#333;text-align:center;font-weight:600;line-height:1.35}
-    .tags{display:flex;flex-wrap:wrap;gap:5px}
+    .tags{display:flex;flex-wrap:wrap;gap:5px;padding-bottom:18px}
     .tag{font-size:12px;color:#333;background:#E0F8EC;border-radius:20px;padding:3px 10px;font-weight:500}
+    .ticket-tear{background:#fff;display:flex;align-items:center;position:relative;height:24px}
+    .ticket-tear::before{content:'';position:absolute;left:-12px;width:24px;height:24px;background:#00A651;border-radius:50%}
+    .ticket-tear::after{content:'';position:absolute;right:-12px;width:24px;height:24px;background:#00A651;border-radius:50%}
+    .tear-line{flex:1;border-top:2px dashed #DDE6F0;margin:0 16px}
+    .ticket-bottom{background:#fff;border-radius:0 0 16px 16px;padding:16px 20px 18px}
+    .event-notice{font-size:12px;font-weight:600;color:#1B3A6B;text-align:center;margin-bottom:14px;line-height:1.6}
+    .barcode{width:100%;height:40px;background:repeating-linear-gradient(90deg,#1B3A6B 0px,#1B3A6B 2px,transparent 2px,transparent 5px,#1B3A6B 5px,#1B3A6B 6px,transparent 6px,transparent 9px,#1B3A6B 9px,#1B3A6B 12px,transparent 12px,transparent 14px);border-radius:2px;margin-bottom:8px;opacity:.7}
+    .issue-num{font-size:10px;color:#AAA;text-align:center;letter-spacing:.08em}
     .btns{width:100%;max-width:360px;display:flex;flex-direction:column;gap:10px;margin-bottom:20px}
     .btn{width:100%;padding:15px;border-radius:12px;font-size:15px;font-weight:600;cursor:pointer;border:none;display:flex;align-items:center;justify-content:center;gap:8px;-webkit-tap-highlight-color:transparent}
     .btn:active{opacity:.85;transform:scale(.98)}
@@ -39,24 +47,34 @@
 </head>
 <body>
   <div class="event-tag">BUSAN STATION · 부산 여행 무드 테스트</div>
-  <div class="card">
-    <div class="card-header">
-      <div class="mood-label">MY BUSAN MOOD</div>
-      <div class="mood-name">GREEN MOOD</div>
-      <div class="station-name">SLOW HEALING STATION</div>
-      <div class="wave">
-        <div class="wb" style="width:8px;height:10px"></div><div class="wb" style="width:8px;height:18px"></div>
-        <div class="wb" style="width:8px;height:8px"></div><div class="wb" style="width:8px;height:22px"></div>
-        <div class="wb" style="width:8px;height:14px"></div><div class="wb" style="width:8px;height:20px"></div>
-        <div class="wb" style="width:8px;height:10px"></div><div class="wb" style="width:8px;height:16px"></div>
+  <div class="ticket-wrap">
+    <div class="ticket-top">
+      <div class="card-header">
+        <div class="mood-label">MY BUSAN MOOD</div>
+        <div class="mood-name">GREEN MOOD</div>
+        <div class="station-name">SLOW HEALING STATION</div>
+        <div class="wave">
+          <div class="wb" style="width:8px;height:10px"></div><div class="wb" style="width:8px;height:18px"></div>
+          <div class="wb" style="width:8px;height:8px"></div><div class="wb" style="width:8px;height:22px"></div>
+          <div class="wb" style="width:8px;height:14px"></div><div class="wb" style="width:8px;height:20px"></div>
+          <div class="wb" style="width:8px;height:10px"></div><div class="wb" style="width:8px;height:16px"></div>
+        </div>
+      </div>
+      <img class="result-img" src="green_mood_result.png" alt="GREEN MOOD 결과 이미지" id="resultImg"
+           onerror="this.src='https://via.placeholder.com/800x800/00A651/FFFFFF?text=GREEN MOOD'">
+      <div class="card-body">
+        <div class="desc">자연과 여유를 따라 천천히 쉬어가는 여행.<br>복잡한 일상보다 여유로운 순간이 더 중요한 당신의 NEXT TRIP입니다.</div>
+        <div class="spot-label">RECOMMENDED SPOTS</div>
+        <div class="spots"><div class='spot'>이기대 갈맷길</div><div class='spot'>을숙도공원</div><div class='spot'>해운대 수목원</div><div class='spot'>장안사</div><div class='spot'>금정산성</div><div class='spot'>동백섬</div></div>
+        <div class="tags"><span class='tag'>#힐링</span><span class='tag'>#산책</span><span class='tag'>#슬로우트립</span><span class='tag'>#VISITBUSAN</span></div>
       </div>
     </div>
-    <img class="result-img" src="https://via.placeholder.com/800x800/00A651/FFFFFF?text=GREEN MOOD" alt="GREEN MOOD 결과 이미지" id="resultImg">
-    <div class="card-body">
-      <div class="desc">자연과 여유를 따라 천천히 쉬어가는 여행.<br>복잡한 일상보다 여유로운 순간이 더 중요한 당신의 NEXT TRIP입니다.</div>
-      <div class="spot-label">RECOMMENDED SPOTS</div>
-      <div class="spots"><div class='spot'>이기대 갈맷길</div><div class='spot'>을숙도공원</div><div class='spot'>해운대 수목원</div><div class='spot'>장안사</div><div class='spot'>금정산성</div><div class='spot'>동백섬</div></div>
-      <div class="tags"><span class='tag'>#힐링</span><span class='tag'>#산책</span><span class='tag'>#슬로우트립</span><span class='tag'>#VISITBUSAN</span></div>
+    <div class="ticket-tear"><div class="tear-line"></div></div>
+    <div class="ticket-bottom">
+      <div class="event-notice">🎉 출력된 티켓을 가지고<br>컬러볼 이벤트존으로 이동해주세요!</div>
+      </div>
+      <div class="barcode"></div>
+      <div class="issue-num">No. 000123 &nbsp;|&nbsp; 2025. 06. 12 &nbsp;14:32</div>
     </div>
   </div>
   <div class="btns">
@@ -78,12 +96,12 @@
   <script src="https://t1.kakaocdn.net/kakao_js_sdk/2.7.2/kakao.min.js" integrity="sha384-TiCUE00h649CAMonG018J2ujOgDKW/kVWlChEuu4jK2vxfAAD0eZxzCKakxg55G4" crossorigin="anonymous"></script>
   <script>
     Kakao.init('e83c98033be5243712ad5f7d1c764e39');
-    const PAGE_URL = location.href;
-    const IMG_URL = document.getElementById('resultImg').src;
+    const PAGE_URL=location.href;
+    const IMG_URL=document.getElementById('resultImg').src;
     function toast(msg){const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2800)}
-    function handleSave(){const a=document.createElement('a');a.href=IMG_URL;a.download='GREEN_MOOD_부산여행결과.png';a.click();toast('이미지가 저장됩니다 📥')}
+    function handleSave(){const a=document.createElement('a');a.href=IMG_URL;a.download='green_mood_부산여행결과.png';a.click();toast('이미지가 저장됩니다 📥')}
     function handleInsta(){window.location.href='instagram://story-camera';setTimeout(()=>toast('인스타그램 앱에서 스토리에 올려주세요! 📸'),1500)}
-    function handleKakao(){if(!Kakao.isInitialized()){toast('카카오 SDK 초기화 실패');return}Kakao.Share.sendDefault({objectType:'feed',content:{title:'나의 부산 여행 무드는 GREEN MOOD!',description:'SLOW HEALING STATION — 자연과 여유를 따라 천천히 쉬어가는 여행. #VISITBUSAN',imageUrl:IMG_URL,link:{mobileWebUrl:PAGE_URL,webUrl:PAGE_URL}},buttons:[{title:'내 무드 확인하기',link:{mobileWebUrl:PAGE_URL,webUrl:PAGE_URL}}]})}
+    function handleKakao(){if(!Kakao.isInitialized()){toast('카카오 SDK 초기화 실패');return}Kakao.Share.sendDefault({objectType:'feed',content:{title:'BUSAN MODE: ON 🌊',description:'Play. Work. Live. Busan — My mood is GREEN MOOD! #VISITBUSAN',imageUrl:IMG_URL,link:{mobileWebUrl:PAGE_URL,webUrl:PAGE_URL}},buttons:[{title:'FIND MY NEXT STATION →',link:{mobileWebUrl:PAGE_URL,webUrl:PAGE_URL}}]})}
   </script>
 </body>
 </html>
