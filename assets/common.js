@@ -4,7 +4,7 @@ const KAKAO_JS_KEY='e83c98033be5243712ad5f7d1c764e39';
 const body=document.body;
 const accent=body.dataset.accent||'#1f6ddc',accentDark=body.dataset.accentDark||accent,accentSoft=body.dataset.accentSoft||'#eaf3ff';
 document.documentElement.style.setProperty('--accent',accent);document.documentElement.style.setProperty('--accent-dark',accentDark);document.documentElement.style.setProperty('--accent-soft',accentSoft);
-const imagePath=body.dataset.image;const imageUrl=body.dataset.imageUrl||new URL(imagePath,window.location.href).href;const pageUrl=body.dataset.pageUrl||window.location.href;const downloadName=body.dataset.download||'result.png';const shareTitle=body.dataset.shareTitle||document.title;const kakaoDescription=body.dataset.kakaoDescription||'Play. Work. Live. Busan — My mood is ON 🕶';
+const imagePath=body.dataset.image;const imageUrl=body.dataset.imageUrl||new URL(imagePath,window.location.href).href;const pageUrl=body.dataset.pageUrl||window.location.href;const downloadName=body.dataset.download||'result.png';const shareTitle=body.dataset.shareTitle||document.title;const kakaoDescription=body.dataset.kakaoDescription||'Play. Work. Live | BUSAN MODE: ON';
 const saveButton=document.getElementById('saveButton'),kakaoButton=document.getElementById('kakaoButton'),instaButton=document.getElementById('instaButton');
 if(window.Kakao&&!window.Kakao.isInitialized()){window.Kakao.init(KAKAO_JS_KEY);}
 function downloadImage(){const link=document.createElement('a');link.href=imagePath;link.download=downloadName;document.body.appendChild(link);link.click();link.remove();}
