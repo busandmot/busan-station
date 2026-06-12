@@ -1,0 +1,35 @@
+[en]
+BLUE   → https://busandmot.github.io/busan-station/en/blue.html
+RED    → https://busandmot.github.io/busan-station/en/red.html
+ORANGE → https://busandmot.github.io/busan-station/en/orange.html
+YELLOW → https://busandmot.github.io/busan-station/en/yellow.html
+GREEN  → https://busandmot.github.io/busan-station/en/green.html
+NAVY   → https://busandmot.github.io/busan-station/en/navy.html
+PURPLE → https://busandmot.github.io/busan-station/en/purple.html
+
+[ja]
+BLUE   → https://busandmot.github.io/busan-station/ja/blue.html
+RED    → https://busandmot.github.io/busan-station/ja/red.html
+ORANGE → https://busandmot.github.io/busan-station/ja/orange.html
+YELLOW → https://busandmot.github.io/busan-station/ja/yellow.html
+GREEN  → https://busandmot.github.io/busan-station/ja/green.html
+NAVY   → https://busandmot.github.io/busan-station/ja/navy.html
+PURPLE → https://busandmot.github.io/busan-station/ja/purple.html
+
+[zh-cn]
+BLUE   → https://busandmot.github.io/busan-station/zh-cn/blue.html
+RED    → https://busandmot.github.io/busan-station/zh-cn/red.html
+ORANGE → https://busandmot.github.io/busan-station/zh-cn/orange.html
+YELLOW → https://busandmot.github.io/busan-station/zh-cn/yellow.html
+GREEN  → https://busandmot.github.io/busan-station/zh-cn/green.html
+NAVY   → https://busandmot.github.io/busan-station/zh-cn/navy.html
+PURPLE → https://busandmot.github.io/busan-station/zh-cn/purple.html
+
+[zh-tw]
+BLUE   → https://busandmot.github.io/busan-station/zh-tw/blue.html
+RED    → https://busandmot.github.io/busan-station/zh-tw/red.html
+ORANGE → https://busandmot.github.io/busan-station/zh-tw/orange.html
+YELLOW → https://busandmot.github.io/busan-station/zh-tw/yellow.html
+GREEN  → https://busandmot.github.io/busan-station/zh-tw/green.html
+NAVY   → https://busandmot.github.io/busan-station/zh-tw/navy.html
+PURPLE → https://busandmot.github.io/busan-station/zh-tw/purple.html

@@ -1,0 +1,44 @@
+[ko]
+BLUE   → https://busandmot.github.io/busan-station/blue.html?utm_source=qr&utm_medium=ticket&utm_campaign=bts_busan_kiosk&utm_content=ko_blue
+RED    → https://busandmot.github.io/busan-station/red.html?utm_source=qr&utm_medium=ticket&utm_campaign=bts_busan_kiosk&utm_content=ko_red
+ORANGE → https://busandmot.github.io/busan-station/orange.html?utm_source=qr&utm_medium=ticket&utm_campaign=bts_busan_kiosk&utm_content=ko_orange
+YELLOW → https://busandmot.github.io/busan-station/yellow.html?utm_source=qr&utm_medium=ticket&utm_campaign=bts_busan_kiosk&utm_content=ko_yellow
+GREEN  → https://busandmot.github.io/busan-station/green.html?utm_source=qr&utm_medium=ticket&utm_campaign=bts_busan_kiosk&utm_content=ko_green
+NAVY   → https://busandmot.github.io/busan-station/navy.html?utm_source=qr&utm_medium=ticket&utm_campaign=bts_busan_kiosk&utm_content=ko_navy
+PURPLE → https://busandmot.github.io/busan-station/purple.html?utm_source=qr&utm_medium=ticket&utm_campaign=bts_busan_kiosk&utm_content=ko_purple
+
+[en]
+BLUE   → https://busandmot.github.io/busan-station/en/blue.html?utm_source=qr&utm_medium=ticket&utm_campaign=bts_busan_kiosk&utm_content=en_blue
+RED    → https://busandmot.github.io/busan-station/en/red.html?utm_source=qr&utm_medium=ticket&utm_campaign=bts_busan_kiosk&utm_content=en_red
+ORANGE → https://busandmot.github.io/busan-station/en/orange.html?utm_source=qr&utm_medium=ticket&utm_campaign=bts_busan_kiosk&utm_content=en_orange
+YELLOW → https://busandmot.github.io/busan-station/en/yellow.html?utm_source=qr&utm_medium=ticket&utm_campaign=bts_busan_kiosk&utm_content=en_yellow
+GREEN  → https://busandmot.github.io/busan-station/en/green.html?utm_source=qr&utm_medium=ticket&utm_campaign=bts_busan_kiosk&utm_content=en_green
+NAVY   → https://busandmot.github.io/busan-station/en/navy.html?utm_source=qr&utm_medium=ticket&utm_campaign=bts_busan_kiosk&utm_content=en_navy
+PURPLE → https://busandmot.github.io/busan-station/en/purple.html?utm_source=qr&utm_medium=ticket&utm_campaign=bts_busan_kiosk&utm_content=en_purple
+
+[ja]
+BLUE   → https://busandmot.github.io/busan-station/ja/blue.html?utm_source=qr&utm_medium=ticket&utm_campaign=bts_busan_kiosk&utm_content=ja_blue
+RED    → https://busandmot.github.io/busan-station/ja/red.html?utm_source=qr&utm_medium=ticket&utm_campaign=bts_busan_kiosk&utm_content=ja_red
+ORANGE → https://busandmot.github.io/busan-station/ja/orange.html?utm_source=qr&utm_medium=ticket&utm_campaign=bts_busan_kiosk&utm_content=ja_orange
+YELLOW → https://busandmot.github.io/busan-station/ja/yellow.html?utm_source=qr&utm_medium=ticket&utm_campaign=bts_busan_kiosk&utm_content=ja_yellow
+GREEN  → https://busandmot.github.io/busan-station/ja/green.html?utm_source=qr&utm_medium=ticket&utm_campaign=bts_busan_kiosk&utm_content=ja_green
+NAVY   → https://busandmot.github.io/busan-station/ja/navy.html?utm_source=qr&utm_medium=ticket&utm_campaign=bts_busan_kiosk&utm_content=ja_navy
+PURPLE → https://busandmot.github.io/busan-station/ja/purple.html?utm_source=qr&utm_medium=ticket&utm_campaign=bts_busan_kiosk&utm_content=ja_purple
+
+[zh-cn]
+BLUE   → https://busandmot.github.io/busan-station/zh-cn/blue.html?utm_source=qr&utm_medium=ticket&utm_campaign=bts_busan_kiosk&utm_content=zhcn_blue
+RED    → https://busandmot.github.io/busan-station/zh-cn/red.html?utm_source=qr&utm_medium=ticket&utm_campaign=bts_busan_kiosk&utm_content=zhcn_red
+ORANGE → https://busandmot.github.io/busan-station/zh-cn/orange.html?utm_source=qr&utm_medium=ticket&utm_campaign=bts_busan_kiosk&utm_content=zhcn_orange
+YELLOW → https://busandmot.github.io/busan-station/zh-cn/yellow.html?utm_source=qr&utm_medium=ticket&utm_campaign=bts_busan_kiosk&utm_content=zhcn_yellow
+GREEN  → https://busandmot.github.io/busan-station/zh-cn/green.html?utm_source=qr&utm_medium=ticket&utm_campaign=bts_busan_kiosk&utm_content=zhcn_green
+NAVY   → https://busandmot.github.io/busan-station/zh-cn/navy.html?utm_source=qr&utm_medium=ticket&utm_campaign=bts_busan_kiosk&utm_content=zhcn_navy
+PURPLE → https://busandmot.github.io/busan-station/zh-cn/purple.html?utm_source=qr&utm_medium=ticket&utm_campaign=bts_busan_kiosk&utm_content=zhcn_purple
+
+[zh-tw]
+BLUE   → https://busandmot.github.io/busan-station/zh-tw/blue.html?utm_source=qr&utm_medium=ticket&utm_campaign=bts_busan_kiosk&utm_content=zhtw_blue
+RED    → https://busandmot.github.io/busan-station/zh-tw/red.html?utm_source=qr&utm_medium=ticket&utm_campaign=bts_busan_kiosk&utm_content=zhtw_red
+ORANGE → https://busandmot.github.io/busan-station/zh-tw/orange.html?utm_source=qr&utm_medium=ticket&utm_campaign=bts_busan_kiosk&utm_content=zhtw_orange
+YELLOW → https://busandmot.github.io/busan-station/zh-tw/yellow.html?utm_source=qr&utm_medium=ticket&utm_campaign=bts_busan_kiosk&utm_content=zhtw_yellow
+GREEN  → https://busandmot.github.io/busan-station/zh-tw/green.html?utm_source=qr&utm_medium=ticket&utm_campaign=bts_busan_kiosk&utm_content=zhtw_green
+NAVY   → https://busandmot.github.io/busan-station/zh-tw/navy.html?utm_source=qr&utm_medium=ticket&utm_campaign=bts_busan_kiosk&utm_content=zhtw_navy
+PURPLE → https://busandmot.github.io/busan-station/zh-tw/purple.html?utm_source=qr&utm_medium=ticket&utm_campaign=bts_busan_kiosk&utm_content=zhtw_purple
